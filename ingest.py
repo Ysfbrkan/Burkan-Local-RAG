@@ -1,6 +1,10 @@
+cat > ingest.py <<'PY'
 import sqlite3
 from sentence_transformers import SentenceTransformer
+from database import create_database
 
+# Veritabanını ve documents tablosunu oluştur
+create_database()
 
 conn = sqlite3.connect("database.db")
 cursor = conn.cursor()
@@ -31,4 +35,8 @@ for chunk in chunks:
 conn.commit()
 conn.close()
 
+print("✅ Bilgiler database'e başarıyla kaydedildi.")
+PY
+from database import create_database
 
+create_database()
