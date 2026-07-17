@@ -1,0 +1,9 @@
+RAG stands for Retrieval-Augmented Generation.
+
+SQLite is a lightweight relational database management system.
+
+Embeddings transform text into numerical vectors.
+
+Microsoft Foundry Local allows AI models to run locally without sending data to cloud services.
+
+Cosine similarity is commonly used to retrieve the most relevant document chunks.
