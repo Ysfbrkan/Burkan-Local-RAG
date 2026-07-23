@@ -70,25 +70,23 @@ Everything runs **100% locally** without requiring an external AI API.
 ```
 
 ---
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
-Burkan-Local-RAG/
-│
-├── database.py
-├── ingest.py
-├── rag.py
-├── main.py
-├── test_foundry.py
-├── requirements.txt
-├── README.md
-│
-└── docs/
-    └── knowledge.txt
+LocalRAG/
+├── docs/                     # PDF and TXT knowledge base
+├── presentation/
+│   └── Burkan Local AI Microsoft Summer School Project Presentation.pdf
+├── database.py               # SQLite database operations
+├── ingest.py                 # Document ingestion and embedding generation
+├── rag.py                    # Retrieval and answer generation pipeline
+├── main.py                   # Command-line application
+├── test_foundry.py           # Foundry Local connection test
+├── database.db               # Stored document chunks and embeddings
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+└── .gitignore                # Git ignored files
 ```
-
----
 
 ## ⚙️ Requirements
 
@@ -278,5 +276,3 @@ GitHub
 ---
 
 ## 📄 License
-
-This project was developed for educational and portfolio purposes.
