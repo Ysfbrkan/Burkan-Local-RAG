@@ -137,7 +137,7 @@ This command automatically:
 
 - Creates the SQLite database
 - Creates the documents table
-- Reads `docs/knowledge.txt`
+- Reads PDF and TXT documents from the docs/ folder
 - Splits the document into chunks
 - Generates embeddings
 - Stores everything locally
@@ -184,11 +184,17 @@ Yusuf
 
 💬 Yusuf, ask a question:
 
-What is RAG?
+Question:
+What is an ecosystem?
 
-🤖 RAG (Retrieval-Augmented Generation) combines
-semantic search with language models by retrieving
-relevant documents before generating an answer.
+Retrieved Sources:
+[1] Lecture 4 Ecosystems.pdf
+
+Similarity:
+0.82
+
+Answer:
+...
 ```
 
 ---
@@ -212,6 +218,7 @@ relevant documents before generating an answer.
 - SentenceTransformers
 - Scikit-learn
 - OpenAI SDK
+- Microsoft Foundry Local SDK
 - Foundry Local
 - Phi-3 Mini
 - NumPy
@@ -276,3 +283,9 @@ GitHub
 ---
 
 ## 📄 License
+## 📑 Presentation
+
+The final presentation for the Microsoft Summer School project is available in the `presentation/` directory.
+
+Presentation:
+- Burkan Local AI Microsoft Summer School Project Presentation.pdf
