@@ -244,10 +244,10 @@ Verified steps:
 - [x] Interactive CLI
 - [x] Automatic Database Initialization
 - [x] Clean Installation Support
-- [ ] Source Attribution
-- [ ] Top-K Retrieval
-- [ ] Multiple Document Support
-- [ ] PDF Support
+- [x] Source Attribution
+- [x] Top-K Retrieval
+- [x] Multiple Document Support
+- [x] PDF Support
 - [ ] GitHub Actions
 - [ ] Unit Tests
 - [ ] Performance Benchmark
