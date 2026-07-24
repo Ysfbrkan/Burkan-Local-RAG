@@ -289,3 +289,8 @@ The final presentation for the Microsoft Summer School project is available in t
 
 Presentation:
 - Burkan Local AI Microsoft Summer School Project Presentation.pdf
+## 🎥 Project Demo
+
+Watch the full demonstration of Burkan Local AI here:
+
+https://youtu.be/n2bvklURsMo
